@@ -1,2 +1,2 @@
 # PHSX815
-First homework due Feb 5th
+First homework is due on Feb 5th
