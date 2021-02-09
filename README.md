@@ -16,4 +16,4 @@ To run this program from the terminal, type in:
 
 	<> python3 homework_two.py
 
-The code must be run in order. Libraries numpy and matplotlib must be installed before running the programs.
+The code must be run in order. Libraries numpy and matplotlib are required to run the programs.
