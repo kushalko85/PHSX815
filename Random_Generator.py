@@ -88,12 +88,7 @@ if __name__ == "__main__":
     np.savetxt(f,myx)
     f.close()
 
-    # Read and save in array
-    rnd = []
-    rnd = np.loadtxt("random.txt")
-
-
-# In[ ]:
+    
 
 
 

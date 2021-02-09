@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # Read file and save in array, code suppose there is a file containing random number
     rnd = []
     rnd = np.loadtxt("random.txt")
-    print(rnd)
+   #print(rnd)
 
     # create histogram of our data
     n, bins, patches = plt.hist(rnd ,50, density=True, facecolor='green', histtype ="stepfilled", alpha=0.45)
@@ -23,12 +23,7 @@ if __name__ == "__main__":
     plt.title('Uniform random number' , fontweight="bold" , fontname="sans serif")
     plt.grid(True , color='r')
 
-    # show figure (program only ends once closed
+    # save and show figure 
+    plt.savefig("plot.png")
     plt.show()
-
-
-# In[ ]:
-
-
-
 

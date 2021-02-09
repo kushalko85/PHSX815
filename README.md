@@ -1,12 +1,17 @@
 #PHSX815
 First homework is due on Feb 5th, 11:59 PM, 2021 (CST).
 
-Second Homework:
-Random generator when run gives the random numbers as output in the Random.txt file.
-To generate the random numbers, type in python3 Random_Generator.py -<seed>
+# Second Homework
+Generating random numbers, writing them in a text file and plotting them to a histogram by reading the text file.
 
-homework_two.py , when run reads the Random.txt file and gives the histogram as the output
-To generate the plot, type in 'python3 homework_two.py'
+## 1) Generating random numbers and writing them in a text file
+The python file `Random_Generator.py` generates random numbers, writes them to the file `random.txt`, and saves the text file.
+To run this program from the terminal, type in:
+		<> python3 Random_Generator.py -<seed>
 
+## 2) Making a histogram plot of the generated random numbers
+The python file `homework_two.py` reads the `random.txt` text file, creates a list and then makes the histogram plot. The plot is saved to a `plot.png` file.
+To run this program from the terminal, type in:
+		<> python3 homework_two.py
 
-Being greedy for BONUS, played a little bit with plot only to make it look ugly. 
+The code must be run in order. Libraries numpy and matplotlib must be installed before running the programs.
